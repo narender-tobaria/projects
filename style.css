@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: aqua;
+    padding: 10px 0;
+    color: rgba(255, 0, 0, 0.558);
+}
+.cloned_projects{
+    display: flex;
+    justify-content: center;
+}
+.project_show_box{
+    width: fit-content;
+    margin: 10px;
+}
+.clone_thumbnail_img{
+    width: 200px;
+    border: 1px solid green;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.clone_thumbnail_img:hover{
+    border-radius: 0px;
+    cursor: pointer;
+}
+.project_clone_name{
+    text-align: center;
+}
