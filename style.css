@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-nav{
+header{
     display: flex;
     justify-content:center;
-    background-color: aqua;
+    background-color: rgba(18, 187, 97, 0.827);
     padding: 10px 0;
-    color: rgba(255, 0, 0, 0.558);
+    color: rgb(255, 255, 255);
+    font-style: bold;
 }
 .cloned_projects{
     display: flex;
