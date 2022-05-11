@@ -16,17 +16,19 @@ nav{
 .project_show_box{
     width: fit-content;
     margin: 10px;
+    text-align: center;
 }
-.clone_thumbnail_img{
-    width: 200px;
+
+.project_thumbnail_img{
+    height: 100px;
     border: 1px solid green;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.clone_thumbnail_img:hover{
+.project_thumbnail_img:hover{
     border-radius: 0px;
     cursor: pointer;
 }
-.project_clone_name{
+.project_name{
     text-align: center;
 }

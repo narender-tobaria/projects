@@ -73,6 +73,7 @@
 
 .content-section{
     width: 100vw;
+    height: 70vh;
     text-align: -webkit-center;
 }
 .content-div{
@@ -170,13 +171,11 @@
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #202124;
-    height: 46px;
     bottom: 0%;
 }
 .left-footer a, .right-footer a{

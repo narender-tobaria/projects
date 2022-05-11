@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Password Authentication Checker</h3>
+        <div class="sign-up-box input-container">
+            <input id="sign-up-input" oninput="checkstrongness()" placeholder="Create Your Password" type="password" >
+            <p id="sign-up-error"></p>
+            <button type="button"  onclick="signup()">Sign Up</button>
+        </div>
+        <hr>
+        <div class="signin-box input-container">
+            <input id="signin-input" placeholder="Enter Your Password"type="password">
+            <p id="signin-error"></p>
+            <button type="button" onclick="signin()">Sign in</button>
+        </div>
+    </div> 
+    <script src="auth.js"></script>
+</body>
+</html>
