@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(140, 137, 137);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 877px;  /* 1/4 of A4 size height 3508px */
+    width: 620px; /* 1/4 of A4 size width 2480px */
+    background-color: #29496a;
+}
+
+.headings{
+    background-color: rgb(123, 123, 123);
+    color: white;
+}
+
+/* Profile Header Part CSS */
+
+.profile-header{
+    background-color: rgb(53, 84, 113);
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.profile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+.socila-links-box{
+    margin-top: 0px;
+}
+.social-link{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.social-link a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.social-link a:hover{
+    text-decoration: underline;
+}
+.header-profile-links{
+    color: white;
+}
+
+/* Profile Content part CSS */
+
+.profile-content{
+    display: flex;
+    background-color: white;
+    height: 100%;
+}
+.left-part{
+    width: 230px;
+    background-color: rgb(229, 231, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.left-part-heading{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.left-part-heading span{
+    margin-right: 10px;
+}
+.objective-content{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.personal-info{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.personal-content{
+    margin-top: 15px;
+}
+.personal-content h3{
+    margin-bottom: 5px;
+}
+
+/* Profile Right part CSS */
+
+.right-part{
+    margin-top: 22px; 
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+.education-part{
+    align-self: center;
+}
+.right-part-heading{
+    border-radius: 40px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-part-heading span{
+    margin-right: 20px;
+}
+.projects-part a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.projects-part a:hover{
+    text-decoration: underline;
+}
+.hobby-projects-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.skill-name-image{
+    display: flex;
+    align-items: center;
+}
+.skill-name-image h4{
+    margin-left: 10px;
+}
+.skill-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+li{
+    margin-top: 10px;
+}
+.progress-bar{
+    height: 10px;
+    width: 150px;
+    background-color: rgb(29, 41, 68);
+    border-radius: 5px;
+}
+.progress{
+    height: 10px;
+    width: 70%;
+    background-color: green;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    body{
+        display: flex;
+        justify-content: center;
+        zoom: 50%;
+    }
+}
+@media screen and (min-width: 640px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
