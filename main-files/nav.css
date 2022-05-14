@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.floating{
+    display: flex;
+    background-color: rgb(18, 187, 97);
+    width: max-content;
+    /* padding-left: 10px; */
+    border-radius: 40px;
+    color: white;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    width: max-content;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+#floating-title{
+    display: none;
+}
+.menu-icon{
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgba(18, 187, 97, 0.827);
+    cursor: pointer;
+    border: 1px solid white;
+}
+.projects-scroll-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding-bottom: 20px;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.898);
+    border: 2px solid rgba(18, 187, 97, 0.827);
+}
+.projects-scroll-view::-webkit-scrollbar{
+    display: block;
+}
+
+.project_show_box{
+    width: fit-content;
+    margin: 10px;
+    /* margin-bottom: 5px; */
+    text-align: center;
+    color: black;
+}
+.project_thumbnail_img{
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.project_thumbnail_img:hover{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.project_name{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+@keyframes example {
+    from {width: 50px;}
+    to {width: 110px;}
+  }
+
+@media screen and (max-width: 200px) {
+ 
+}

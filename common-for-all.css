@@ -1,0 +1,9 @@
+.projects-icon-right-bottom{
+    position: fixed;
+    bottom: -20px;
+    right: -20px;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
