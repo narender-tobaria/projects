@@ -5,22 +5,23 @@
 .floating{
     display: flex;
     background-color: rgb(18, 187, 97);
-    width: max-content;
+    width: 30px;
     /* padding-left: 10px; */
     border-radius: 40px;
     color: white;
-    align-items: center;
-    position: absolute;
-    bottom: 8px;
+    bottom: 10px;
     right: 10px;
-    width: max-content;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 #floating-title{
     display: none;
+    margin-left: 10px;
 }
 .menu-icon{
     padding: 2px;
@@ -32,12 +33,11 @@
 .projects-scroll-view{
     display: flex;
     flex-direction: column;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 10px;
-    right: 0px;
     padding-bottom: 20px;
+    bottom: 10px;
     z-index: -1;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.898);
@@ -70,8 +70,12 @@
 
 
 @keyframes example {
-    from {width: 50px;}
-    to {width: 110px;}
+    from {
+        width: 30px; 
+    }
+    to {
+        width: 110px;
+    }
   }
 
 @media screen and (max-width: 200px) {

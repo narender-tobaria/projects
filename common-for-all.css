@@ -1,7 +1,8 @@
 .projects-icon-right-bottom{
     position: fixed;
-    bottom: -20px;
+    bottom: -30px;
     right: -20px;
+    padding: 10px;
     margin: 20px;
     height: 100%;
     width: 100%;

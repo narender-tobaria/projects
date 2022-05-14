@@ -7,12 +7,10 @@ let floatingTitle = document.getElementById("floating-title");
 menuClose.style.display = "none"
 projects.style.display = "none";
 
-setTimeout(showProjectsName, 4000)
+setTimeout(showProjectsName, 2000)
 
 function showProjectsName(){
-    floatingTitle.style.display = "block"
-    floatingTitle.style.marginRight = "15px"
-    floating.style.paddingLeft = "15px"
+    floatingTitle.style.display = "flex"
 }
 
 menuOpen.onclick = function(){
