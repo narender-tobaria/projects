@@ -3,6 +3,7 @@ let menuClose = document.getElementById("icon-close");
 let projects = document.getElementById("projects");
 let floating = document.getElementById("floating");
 let floatingTitle = document.getElementById("floating-title");
+let iframe = document.getElementById
 
 menuClose.style.display = "none"
 projects.style.display = "none";
