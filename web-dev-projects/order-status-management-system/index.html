@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Order Status Management</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="input-area">
+            <h2 class="project-title">Order Status Management</h2>
+            <input type="text" id="input-order" placeholder="Enter Order ID to Execute">
+            <button id="order-button" onclick="executeOrder()">Execute Order</button>
+        </div>
+        <div id="orders-area">
+            <lottie-player id="no-order-gif" src="https://assets9.lottiefiles.com/packages/lf20_svlw4qzf.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+            <!-- <div class="order">
+                <p class="order-header">Order ID : 2025304025</p> 
+                <div class="order-body">
+                    <h3 class="order-amount">Bill Amount: $150</h3>
+                    <span class="order-status">First layer of cheeze added</span>
+                    <div class="order-footer">
+                        <button class="cancel-button">Cancel Order</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="js/execute.js"></script>
+    <script src="js/createOrderCard.js"></script>
+    <script src="js/orderStatus.js"></script>
+</body>
+</html>
