@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 877px;  /* 1/4 of A4 size height 3508px */
-    width: 620px; /* 1/4 of A4 size width 2480px */
+    width: 660px; /* 1/4 of A4 size width 2480px */
     background-color: #29496a;
 }
 

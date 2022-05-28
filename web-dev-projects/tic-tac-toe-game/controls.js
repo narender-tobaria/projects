@@ -1,8 +1,28 @@
+
+// Get the modal
+var modal = document.getElementById("pop-up");
+
+// Get the <span> element that closes the modal
+var close = document.getElementById("close");
+
+
+// When the user clicks on <span> (x), close the modal
+close.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 let boxes = document.getElementsByClassName("tile");
 let playerTurn = 1;
 let turn = document.getElementById("turn");
 let gameover = false
-let modalTitle = document.getElementById('exampleModalLongTitle');
+let winnerName = document.getElementById('winnerPlayer');
 
 
 const winningConditions = [
@@ -27,8 +47,8 @@ const singleClick = (index) => {
         let winner = checkWinner();
         if(winner){
             gameover = true
-            modalTitle.innerText = winner  === 'X' ? 'Player X Won' : 'Player O Won';
-            document.getElementById('popup-btn').click();
+            winnerName.innerText = winner  === 'X' ? 'Player X Won' : 'Player O Won';
+            modal.style.display = "flex";
             return
         }
         playerTurn = playerTurn === 1 ? 2 : 1;
