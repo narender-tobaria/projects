@@ -62,6 +62,10 @@ function createFloatingIcon(){
     let orderStatusManagement = createNewProject(`${aLink}/order-status-management-system/`,`${imgLink}/order-status-management.jpg`,"Order Status Management");
     projectScrollViewBox.appendChild(orderStatusManagement);
 
+    // To Do App
+    let toDoApp = createNewProject(`${aLink}/to-do-app/`,`${imgLink}/to-do-app.jpg`,"To Do App");
+    projectScrollViewBox.appendChild(toDoApp);
+
     // RCMCAL
     let rcmcal = createNewProject("https://play.google.com/store/apps/details?id=rcmcal.poscal.in",`${imgLink}/rcmcal.jpg`,"RCMCAL");
     projectScrollViewBox.appendChild(rcmcal);
